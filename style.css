@@ -1,0 +1,164 @@
+
+
+h1 {
+    color: #ffd324;
+    position:absolute;
+    left: 50px;
+    top: 220px;
+    opacity: 0.8;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: 'Josefin Sans', sans-serif;
+}
+ 
+.logoo .logo{
+  opacity: 20%;
+  position:fixed;
+  
+  top: 20px;
+  z-index: 2;
+  left: 20px;
+
+}
+
+body, html {
+  height: 100%;
+}
+
+nav {
+    background-color: #ffd324;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    line-height: 100px;
+    opacity: 0.99;
+}
+
+nav a {
+  color: #30333A;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+body {
+  background: #30333A;
+  background-image: url("../img/logo.png");
+}
+
+
+.wrapper .btn{
+  margin: 15px;
+  border: 2px solid #ffd324;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  line-height:     45px;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper .btn a{
+  color: #ffd324;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: block;
+  position: relative;
+  z-index: 999;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.wrapper .btn a:hover{
+  color: #30333A;
+}
+
+.wrapper .btn.btn_1:before{
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffd324;
+  transform: skewY(10deg);
+  transition: all 0.5s ease;
+}
+
+.wrapper .btn.btn_1:after{
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffd324;
+  transform: skewY(10deg);
+  transition: all 0.5s ease;
+}
+
+.wrapper .btn.btn_1:hover:before{
+  top: -20px;
+}
+.wrapper .btn.btn_1:hover:after{
+  top: 20px;
+}
+
+.wrapper .btn.btn_2:before{
+  content: "";
+  position: absolute;
+  top: -120px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffd324;
+  transform: skewY(-10deg);
+  transition: all 0.5s ease;
+}
+
+.wrapper .btn.btn_2:after{
+  content: "";
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffd324;
+  transform: skewY(-10deg);
+  transition: all 0.5s ease;
+}
+
+.wrapper .btn.btn_2:hover:before{
+  top: -20px;
+}
+.wrapper .btn.btn_2:hover:after{
+  top: 20px;
+}
+
+.satir .nav.a:hover:after{
+  background-color: red;
+}
+
+p {
+    color: #ffd324;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 60px;
+    top: 280px;
+    font-size: large;
+}
+
+div {
+    top: 380px;
+    left: 90px;
+}
